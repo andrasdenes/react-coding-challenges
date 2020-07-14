@@ -1,12 +1,12 @@
-# React Coding Challenges
-
-A series of easy -> hard React.js coding challenges.
-
-### The original author of this repository is alexgurr.
+#### The original author of this repository is [alexgurr](https://github.com/alexgurr alexgurr's profile).
 
 These are my solutions.
 
-### challenges unsolved can be found here: https://github.com/alexgurr/react-coding-challenges
+#### challenges unsolved can be found here: <br>https://github.com/alexgurr/react-coding-challenges
+
+# React Coding Challenges
+
+A series of easy -> hard React.js coding challenges.
 
 # When could these be useful?
 
