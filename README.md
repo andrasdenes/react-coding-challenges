@@ -1,4 +1,4 @@
-#### The original author of this repository is [alexgurr](https://github.com/alexgurr alexgurr's profile).
+#### The original author of this repository is [alexgurr](https://github.com/alexgurr).
 
 These are my solutions.
 
