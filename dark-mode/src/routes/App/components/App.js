@@ -1,6 +1,7 @@
 import React, { useState, useEffect, forceUpdate } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import "../styles/_app.scss";
 import "../../../styles/_dark-mode.scss";
 
@@ -17,7 +18,9 @@ function App() {
         <div>
           <h1 className="title">Dark Mode Challenge</h1>
         </div>
-
+        <Link to="/content" className="app__dark-mode">
+          To "Content"
+        </Link>
         {/* --The button that should toggle dark mode-- */}
         <button
           className="app__dark-mode-btn icon level-right"

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import "../styles/_app.scss";
 import "../../../styles/_dark-mode.scss";
 
@@ -25,6 +26,9 @@ const Content = () => {
           color={mode === true ? "#000000" : "#FFA500"}
         />
       </button>
+      <Link to="/" className="app__dark-mode">
+        Back to Home
+      </Link>
     </div>
   );
 };
